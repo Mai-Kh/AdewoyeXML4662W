@@ -1,0 +1,20 @@
+<newsletter>
+  <month>October</month>
+  <year>2017</year>
+  <volume>4</volume>
+  <issue>2</issue>
+  <meeting date>October 10</meeting date>
+</newsletter>
+<newsletter>
+  <month>September</month>
+  <year>2017</year>
+  <volume>3</volume>
+  <issue>8</issue>
+  <meeting date>September 12</meeting date>
+<newsletter>
+  <month>July</month>
+  <year>2017</month>
+  <volume>3</volume>
+  <issue>7</issue>
+  <meeting date>June 20</meeting date>
+</newsletter>
