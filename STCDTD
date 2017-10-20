@@ -1,0 +1,8 @@
+<!DOCTYPE newsletter [
+<!ELEMENT newsletter (month, year, volume, issue, meeting date)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ELEMENT issue (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+]>
