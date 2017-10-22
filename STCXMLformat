@@ -1,9 +1,13 @@
+better to have this directive here "<?xml version="1.0"?>"
+You should specify here that your xml document is linked tot the dtd file by writing this "<!DOCTYPE nl SYSTEM "STCDTD.dtd">
+" where nl is supposedly your root node
+Your xml document should have a root node, so start a root node here and close is at the end of the document
 <newsletter>
   <month>October</month>
   <year>2017</year>
   <volume>4</volume>
   <issue>2</issue>
-  <meeting date>October 10</meeting date>
+  <meeting date>October 10</meeting date> no spaces allowed for tag names, change this to <meetingdate>
 </newsletter>
 <newsletter>
   <month>September</month>
@@ -11,9 +15,10 @@
   <volume>3</volume>
   <issue>8</issue>
   <meeting date>September 12</meeting date>
+  need to close <newsletter> tag
 <newsletter>
   <month>July</month>
-  <year>2017</month>
+  <year>2017</month> wrong tag closing
   <volume>3</volume>
   <issue>7</issue>
   <meeting date>June 20</meeting date>
