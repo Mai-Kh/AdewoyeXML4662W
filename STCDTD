@@ -1,8 +1,8 @@
-<!DOCTYPE newsletter [
-<!ELEMENT newsletter (month, year, volume, issue, meeting date)>
+<!DOCTYPE newsletter [ the dtd should start with something like "<?xml version="1.0" encoding="utf-8"?>"
+<!ELEMENT newsletter (month, year, volume, issue, meeting date)>  remove the space from "meeting date" so that it becomes "meetingdate"
 <!ELEMENT month (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT volume (#PCDATA)>
 <!ELEMENT issue (#PCDATA)>
 <!ELEMENT editor (#PCDATA)>
-]>
+]> remove these brackets
